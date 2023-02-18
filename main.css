@@ -1,0 +1,116 @@
+#title {
+    position: absolute;
+    top: 5px;
+    right: 45px;
+
+    color: white;
+    font-family: 'Atomic Age', cursive;
+    font-size: 3rem;
+    text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.quote {
+    text-shadow: 0px 4px 0 #515C64;
+     
+    color: white;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+#content {
+    margin: auto;
+    margin-top: 250px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content,
+#content * {
+    text-align: center;
+}
+
+.milestone {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+
+.milestone .circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 10000000px;
+    background: #0094FF;
+    border: 5px solid #00000078;
+    margin: 8px;
+}
+
+.milestone .date {
+    text-align: right;
+    color: white;
+    width: 100px;
+}
+
+.milestone .title {
+    text-align: left;
+    color: white;
+}
+
+#contact {
+    background-color: white;
+    padding: 13px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 35px;
+    box-shadow: 0px 4px 2px 2px rgba(0, 148, 255, 0.18);
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    line-height: 45px;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+#contact svg {
+    fill: #0094FF;
+    height: 45px;
+    width: 45px;
+    margin-right: 5px;;
+}
+
+#gradient {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#imgSource, 
+#imgSource * {
+    color: #ccc;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url(background_img.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: bottom;
+    padding-bottom: 45px; /* For the image source*/
+}
